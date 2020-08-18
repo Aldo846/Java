@@ -83,15 +83,211 @@ public class FormularioCuestionario extends javax.swing.JFrame {
         Pregunta p2 = new Pregunta();
         p2.setTitulo("¿Cual es el oceano más grande del mundo?");
         p2.setOpciones(opciones2);
+        
+        Opcion op30 = new Opcion();
+        op30.setTitulo("Rusia");
+        op30.setCorrecta(true);
+        
+        Opcion op31 = new Opcion();
+        op31.setTitulo("Mexico");
+        op31.setCorrecta(false);
+        
+        Opcion op32 = new Opcion();
+        op32.setTitulo("Alemannia");
+        op32.setCorrecta(false);
+        
+        Opcion op33 = new Opcion();
+        op33.setTitulo("Japon");
+        op33.setCorrecta(false);
+        
+        
+        Opcion[] opciones3 = {op30,  op31, op32, op33 };
+        Pregunta p3 =new Pregunta();
+        p3.setTitulo("¿Cual es el pais mas grande  ?");
+        p3.setOpciones(opciones3);
+        
+        
+        Opcion op40 = new  Opcion();
+        op40.setTitulo("Morado");
+        op40.setCorrecta(false);
+        
+        Opcion op41 = new  Opcion(); 
+        op41.setTitulo("Rojo");
+        op41.setCorrecta(false);
+        
+        Opcion op42 = new Opcion();
+        op42.setTitulo("Azul");
+        op42.setCorrecta(false);
+        
+        Opcion op43 = new Opcion();
+        op43.setTitulo("Amarillo");
+        op43.setCorrecta(true);
+        
+        
+        Opcion[] opciones4 ={op40, op41, op42, op43};
+        Pregunta p4 = new Pregunta ();
+        p4.setTitulo("¿Cual es color que suele relacionarse  con la  felicidad?");
+        p4.setOpciones(opciones4);
+        
+        
+        Opcion op50 = new Opcion();
+        op50.setTitulo("Neil Armstrong");
+        op50.setCorrecta(true);
+        
+        Opcion op51 = new Opcion();
+        op51.setTitulo("Leonardo Campos");
+        op51.setCorrecta(false);
+        
+        Opcion op52 = new Opcion();
+        op52.setTitulo("Valentin Becker");
+        op52.setCorrecta(false);
+        
+        Opcion op53 = new Opcion();
+        op53.setTitulo("Luisa Will");
+        op53.setCorrecta(false);
+                
+  
+        Opcion[] opciones5 ={op50, op51, op52, op53};
+        Pregunta p5 = new Pregunta ();
+        p5.setTitulo("¿Quien fue el primer hombre en pisar la luna?");
+        p5.setOpciones(opciones5);
+        
+        
+        
+        Opcion op60 = new Opcion();
+        op60.setTitulo("Durango");
+        op60.setCorrecta(false);
+                
+        Opcion op61 = new Opcion();
+        op61.setTitulo("Caracas");
+        op61.setCorrecta(true);
+        
+        Opcion op62 =new Opcion();
+        op62.setTitulo("Brasilia");
+        op62.setCorrecta(false);
+        
+        Opcion op63 =new Opcion();
+        op63.setTitulo("Tokyo");
+        op63.setCorrecta(false);
+        
+        
+        Opcion[] opciones6 ={op60, op61, op62, op63};
+        Pregunta p6= new Pregunta ();
+        p6.setTitulo("¿Cual es la capital de Venezuela?");
+        p6.setOpciones(opciones6);
+        
+        
+        Opcion op70= new Opcion();
+        op70.setTitulo("Jupiter");
+        op70.setCorrecta(false);
+        
+        Opcion op71= new Opcion();
+        op71.setTitulo("Marte");
+        op71.setCorrecta(false);
+        
+        Opcion op72 = new Opcion();
+        op72.setTitulo("Tierra");
+        op72.setCorrecta(true);
+        
+        Opcion op73 = new Opcion();
+        op73.setTitulo("Saturno");
+        op73.setCorrecta(false);
+        
+                
+        Opcion[] opciones7 ={op70, op71, op72, op73};
+        Pregunta p7= new Pregunta();
+        p7.setTitulo("¿Cual es el tercer planeta del sistema solar ?");
+        p7.setOpciones(opciones7);
+        
+        Opcion op80 = new Opcion();
+        op80.setTitulo("Socatres");
+        op80.setCorrecta(false);
+        
+        Opcion op81 = new Opcion();
+        op81.setTitulo("Aristoteles");
+        op81.setCorrecta(false);
+        
+        
+        Opcion op82 = new Opcion();
+        op82.setTitulo("Confusio");
+        op82.setCorrecta(false);
+        
+        Opcion op83 = new Opcion();
+        op83.setTitulo("Platon");
+        op83.setCorrecta(true);
+                
+        
+        Opcion[] opciones8 ={op80, op81, op82, op83};
+        Pregunta p8= new Pregunta();
+        p8.setTitulo("¡Quien dijo yo solo se que no se nada? ");
+        p8.setOpciones(opciones8);
+        
+        
+        Opcion op90=new Opcion();
+        op90.setTitulo("Estocolmo");
+        op90.setCorrecta(true);
+        
+        Opcion op91=new Opcion();
+        op91.setTitulo("Luanda");
+        op91.setCorrecta(false);
+        
+        Opcion op92=new Opcion();
+        op92.setTitulo("Argel");
+        op92.setCorrecta(false);
+        
+        Opcion op93=new Opcion();
+        op93.setTitulo("Riad");
+        op93.setCorrecta(false);
+        
+        
+        Opcion[] opciones9 ={op90, op91, op92, op93};
+        Pregunta p9= new Pregunta();
+        p9.setTitulo("¿Cual es la capital de Suecia?");
+        p9.setOpciones(opciones9);
+        
+        Opcion op100=new Opcion();
+        op100.setTitulo("Argentina");
+        op100.setCorrecta(false);
+        
+        Opcion op101=new Opcion();
+        op101.setTitulo("China");
+        op101.setCorrecta(false);
+        
+        Opcion op102=new Opcion();
+        op102.setTitulo("Cuba");
+        op102.setCorrecta(false);
+        
+        Opcion op103=new Opcion();
+        op103.setTitulo("India");
+        op103.setCorrecta(true);
+        
+        
+        
+        Opcion[] opciones10={op100, op101, op102, op103};
+        Pregunta p10=new Pregunta();
+        p10.setTitulo("¿En que pais se encuentra el Taj Mahal ?");
+        p10.setOpciones(opciones10);
 
 
         //Vamos a adaptar el cuestioanario a lo que ya teniamos
         Cuestionario c = new Cuestionario();
         //Creamos el list de preguntas
+        
+        
 
         //Se agrega a este list la unica prgunta que tenemos
         preguntas.add(p1);
         preguntas.add(p2);
+        preguntas.add(p3);
+        preguntas.add(p4);
+        preguntas.add(p5);
+        preguntas.add(p6);
+        preguntas.add(p7);
+        preguntas.add(p8);
+        preguntas.add(p9);
+        preguntas.add(p10);
+        
+        
         //A este list le vamos a proporcionar el valor del correspondiente
         //cuestioanrio
         c.setPreguntas(preguntas);
@@ -110,7 +306,7 @@ public void mostrarPregunta(int indicePregunta){
         }
 
 }
-    
+      
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -212,16 +408,21 @@ public void mostrarPregunta(int indicePregunta){
         //Para  que no se lance la expcion hacer que el metodo mostrar pregunta
         //no muestre la preguta si el tamaño de ArrayList ue se llama preguntas
         // ya no tiene mas preguntas, debes de apoyarte del metodo size()
-      mostrarPregunta(preguntaActual);
+     
       
       
           }
+          
+          if(preguntaActual<preguntas.size()){
+            mostrarPregunta(preguntaActual);
+        }
 
     }//GEN-LAST:event_botonRespuestaActionPerformed
 
     /**
      * @param args the command line arguments
      */
+    
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
